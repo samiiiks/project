@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import DropdownProfle from '../DropdownProfle'
+import DropdownProfle from './DropdownProfle'
  
 function Navbar() {
   return (
