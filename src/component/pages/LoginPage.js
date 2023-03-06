@@ -3,7 +3,7 @@ import LoginForm from '../common/LoginForm'
 
 function LoginPage() {
   return (
-    <div className="login-page">
+    <div className="login-page-test">
         <LoginForm 
          heading="Login to your account."
         />

@@ -3,6 +3,7 @@ import { Route} from 'react-router-dom';
 import { Routes} from 'react-router-dom';
 import { BrowserRouter} from 'react-router-dom'; 
 import LoginPage from './component/pages/LoginPage';
+import PageNotFound from './component/pages/PageNotFound';
 
 function App() {
   return (
@@ -12,12 +13,13 @@ function App() {
         <Routes>
           {/* <Route path="/dropdownprofile" element={<DropdownProfle />} /> */}
           <Route path="/login" element={<LoginPage />} />
-          {/* <Route path="/aboutpage" element={<AboutPage />} /> */}
+          {/* <Route path="/about" element={<AboutPage />} /> */}
           {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           {/* <Route path="/homepage" element={<Homepage />} /> */}
-          {/* <Route path="/ProfileSettingsPage" element={<ProfileSettingsPage/>} /> */}
-          {/* <Route path="/settingspage" element={<SettingsPage />} /> */}
-          {/* <Route path="/signuppage" element={<SignupPage/>} /> */}
+          {/* <Route path="/profile-page" element={<ProfileSettingsPage/>} /> */}
+          {/* <Route path="/settings" element={<SettingsPage />} /> */}
+          {/* <Route path="/sign-up" element={<SignupPage/>} /> */}
+          <Route path="*" element={<PageNotFound/>} />
         </Routes>
       </BrowserRouter> 
     </div>

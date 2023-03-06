@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React from 'react'
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import "./style.css";
+
 
 const API_URL = "https://reqres.in/api";
 
@@ -56,10 +58,10 @@ function LoginForm({heading}) {
 
   return (
     <>
-      <div className="login">
+      {/* <div className="login">
         <h3>{heading}</h3>
-      </div>
-      <form 
+      </div> */}
+      {/* <form 
         className="login-form"
         onSubmit={handleOnFormSubmit}
       >
@@ -78,7 +80,28 @@ function LoginForm({heading}) {
           onChange={handleOnInputChange}
         />
           <button type="submit">Login</button>
-      </form>
+      </form> */}
+
+      <div className="login-form-ui">
+      <span className="logo"></span>
+  <div className="email">
+    <label for="email">Email Address</label>
+    <div className="sec-2">
+      <ion-icon name="mail-outline"></ion-icon>
+      <input type="email" name="email" placeholder="Username@gmail.com"/>
+    </div>
+  </div>
+  <div className="password">
+    <label for="password">Password</label>
+    <div className="sec-2">
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <input className="pas" type="password" name="password" placeholder="············"/>
+      <ion-icon className="show-hide" name="eye-outline"></ion-icon>
+    </div>
+  </div>
+  <button className="login">Login </button>
+  <div className="footer"><span><Link to="/signup">Signup</Link></span><span><Link to="/forgot-password">Forgot Password?</Link></span></div>
+</div>
     </>
   )
 }
