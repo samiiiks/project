@@ -7,6 +7,8 @@ import Homepage from './component/pages/HomePage'
 import AboutPage from './component/pages/AboutPage'
 import SignupPage from './component/pages/SignupPage';
 import Navbar from './component/common/Navbar';
+
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,8 @@ function App() {
           {/* <Route path="*" element={<PageNotFound />} /> */}
         </Routes>
       </BrowserRouter>
+      
+      <Toaster />
     </div>
   );
 }

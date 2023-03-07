@@ -1,0 +1,206 @@
+  .signup-form-ui {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    /* box-shadow: 0 0 2em #e6e9f9; */
+    gap: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .signup-form-ui .logo {
+    margin-top: 3em;
+  }
+
+  .signup-form-ui .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: -3em;
+  }
+
+  .signup-form-ui .email input {
+    outline: none;
+    border: none;
+  }
+
+  .signup-form-ui .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .email input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+
+  .signup-form-ui .field-ui {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+  }
+
+  .signup-form-ui .field-ui input {
+    outline: none;
+    border: none;
+  }
+
+  .signup-form-ui .field-ui input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .field-ui input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .field-ui input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+
+  .signup-form-ui .field-ui ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+
+  .signup-form-ui .field-ui .show-hide {
+    margin-right: -5em;
+  }
+
+  .signup-form-ui .signup {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+
+  .signup-form-ui .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+    padding-bottom: 10em;
+  }
+
+  .signup-form-ui .footer span {
+    cursor: pointer;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  /* .signup-form-ui{
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .signup-form-ui .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: -3em;
+  }
+  .signup-form-ui .email input {
+    outline: none;
+    border: none;
+  }
+  .signup-form-ui .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .signup-form-ui .name {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: -3em;
+  }
+  .signup-form-ui .name input {
+    outline: none;
+    border: none;
+  }
+  .signup-form-ui .name ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  } */
+  .nav {
+    background: #000;
+    color: white;
+    padding: 10px;
+
+  }
+
+  ul {
+    margin: 12px;
+  }
+
+  ul li {
+    padding: 12px;
+    margin: 12px;
+    list-style: none;
+
+  }
+ 
+  .signup-form-ui {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    padding: 12px;
+  }
